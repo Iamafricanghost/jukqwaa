@@ -1,0 +1,4 @@
+
+.partnerships-label {
+    @apply absolute top-4 right-4 block px-3 py-1 bg-yellow-500 text-gray-500 rounded-3xl text-sm capitalize;
+}

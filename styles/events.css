@@ -1,0 +1,33 @@
+.events {
+    @apply mt-[96px] bg-gradient-to-b from-blue-50/70 to-transparent -skew-y-2 py-20;
+}
+.events-column {
+    @apply w-full sm:w-6/12 lg:w-4/12 xl:w-3/12 p-3 ;
+}
+.events-image {
+    @apply w-full h-[190px] overflow-hidden rounded-tl-2xl rounded-tr-2xl relative;
+}
+.events-layer {
+    @apply absolute inset-0 w-full bg-black/50 ;
+}
+.events-label {
+    @apply absolute top-4 right-4 block px-3 py-1 bg-orange-700 text-white text-xs rounded-3xl text-sm capitalize;
+}
+.event-title {
+    @apply text-base sm:text-lg text-gray-900 capitalize;
+}
+.event-avg-rating {
+    @apply inline-block text-orange-700 text-sm font-semibold;
+}
+.event-all-rating {
+    @apply inline-block text-sm text-gray-500 ml-1 ;
+}
+.event-pricing {
+    @apply flex mt-1 justify-between ;
+}
+.event-priced {
+    @apply text-orange-800 text-base font-medium;
+}
+.event-free {
+    @apply line-through text-sm text-gray-400 text-base;
+}
